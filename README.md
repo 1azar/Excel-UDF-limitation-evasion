@@ -16,3 +16,7 @@ BOOK.cls implements the "App_AfterCalculate" method, which calls after the calcu
 At the end of the Sub, the data of these global variables will be erased.
 
 ## Installation
+ - Download [Mtx_add-in.xlam](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/Mtx_add-in.xlam)
+ - Open an Empty book in Excel then go to File -> Options -> Add-in -> Go -> Browse and select downloaded [Mtx_add-in.xlam](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/Mtx_add-in.xlam)
+ - Enable macros
+ - Go to File->Options->Add-in->Go
