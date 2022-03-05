@@ -1,6 +1,6 @@
 # Excel-UDF-limitation-evasion
 An add-in for MS Excel that allows you to insert tables (matrices) onto a sheet through user-defined functions.
-Specifically, it provides a Sub that places a two-dimensional array on the sheet. All you have to do after installing the add-in is call this Sub with the appropriate parameters.
+Specifically, it provides a Sub that places a two-dimensional array on the sheet. All you have to do is call this Sub with the appropriate parameters.
 ## Demonstration 
 ![demonstration](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/demo.gif)
 ## Add-in implementation details
@@ -19,7 +19,7 @@ At the end of the Sub, the data of these global variables will be erased.
  - Download [Mtx_add-in.xlam](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/Mtx_add-in.xlam).
  - Optionaly recommended to place the add-in in the `C:\..\..\AppData\Roaming\Microsoft\AddIns\` folder.
  - Open an Empty book in Excel then go to `File->Options->Add-in->Go->Browse` and select downloaded [Mtx_add-in.xlam](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/Mtx_add-in.xlam), check the box next to the selected add-in then click OK. Enable macros if required.
- - write `=generate_matrix(3;3)` in amy cell to make sure the Add-in is working.
+ - write `=generate_matrix(3;3)` in any cell to make sure the Add-in is working.
 
 ## Usage
 There are 2 main ways to use the add-on:
