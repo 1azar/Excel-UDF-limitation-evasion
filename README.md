@@ -33,4 +33,5 @@ There are 2 main ways to use the add-on:
 ![demonstration](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/dem1.png)
 ![demonstration](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2005-03-2022%20152837.jpg)
   
-
+## Additional Information
+The add-in was created and tested on Excel 2016 x64
