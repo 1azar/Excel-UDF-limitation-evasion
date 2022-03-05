@@ -10,14 +10,14 @@ Attribute VB_Exposed = True
 Private WithEvents App As Application
 Attribute App.VB_VarHelpID = -1
 
-Private Sub App_WorkbookOpen(ByVal Wb As Workbook)
-    MsgBox ("�� ������� �����:" & Wb.Name)
-End Sub
+'Private Sub App_WorkbookOpen(ByVal Wb As Workbook)
+'    MsgBox ("You have opend the " & Wb.Name)
+'End Sub
 
 Private Sub App_AfterCalculate()
     
     If (-1 = Not GLOBAL_MTX) Then
-        Debug.Print ("GLOBAL_MTX is empty")
+        'Debug.Print ("GLOBAL_MTX is empty")
     Else
         Dim target_range As String
         Dim init_row As Integer
@@ -54,7 +54,7 @@ Function get_range_as_str(ByRef start_row As Integer, ByRef start_column As Inte
 End Function
 
 Private Function Get_Letter_by_Number_(lngCol As Integer) As String
-    '������ ��������� ������������� ������ �������, ���� ������ ������� �� ����� ����, �� ������ ������� A
+    '1 -> "A", 2 -> "B", 4 -> "D", -3 -> "A"
     Dim vArr
     If lngCol >= 1 Then
     vArr = Split(Cells(1, lngCol).Address(True, False), "$")

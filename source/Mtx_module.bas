@@ -17,6 +17,3 @@ Public Sub set_mtx_on_cell(ByRef mtx() As Variant, _
     GLOBAL_LPF_evented_first = True
 End Sub
 
-Private Sub Workbook_Open()
-
-End Sub
