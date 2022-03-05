@@ -22,4 +22,6 @@ At the end of the Sub, the data of these global variables will be erased.
  - write `=generate_matrix(3;3)` in amy cell to make sure the Add-in is working.
 
 ## Usage
+There are 2 main ways to use the add-on:
+1) Implementation of your custom functions inside the add-on project (for example, the demonstrative function =generate_matrix is implemented in this way). Then to insert a 2d array on a sheet, you just need to call Sub `Call set_mtx_on_cell(my_arr, Application.Caller.Address, ActiveWorkbook.Name, ActiveSheet.Name)` from any module in the project.
 
