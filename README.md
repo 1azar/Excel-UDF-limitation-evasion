@@ -3,7 +3,7 @@ An add-in for MS Excel that allows you to insert tables (matrices) onto a sheet 
 Specifically, it provides a Sub that places a two-dimensional array on the sheet. All you have to do after installing the add-in is call this Sub with the appropriate parameters.
 ## Demonstration 
 ![demonstration](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/demo.gif)
-## Implementation details
+## Add-in implementation details
 To place a two-dimensional matrix on sheet, you need to call Sub "set_mtx_on_cell" from your function with the following arguments:
  - ByRef array() as Variant - target array
  - ByRef cell_name as String - cell address of the upper left corner for the inserting matrix
@@ -27,9 +27,9 @@ There are 2 main ways to use the add-on:
 
 ![demonstration](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2005-03-2022%20150740.jpg)
 
-2) Establish a connection with the add-in and work as with a regular module. To do this, in the VBA editor insert and open your module, then go to the `Tool->Referencess..->Browse` and select the downloaded add-in (Specify "Microsoft Excel Files" in the search filter). Press ok. Now you can call add-in functions like any other from you book
+2) Establish a connection with the add-in and work as with a regular module. To do this, in the VBA editor insert and open your module, then go to the `Tool->Referencess..->Browse` and select the downloaded add-in (Specify "Microsoft Excel Files" in the search filter). Press ok. Now you can call add-in Sub from your book project.
 
-![demonstration](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2005-03-2022%20152837.jpg)
+![demonstration](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/dem1.png)
 ![demonstration](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2005-03-2022%20152837.jpg)
   
 
