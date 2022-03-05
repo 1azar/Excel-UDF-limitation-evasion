@@ -17,6 +17,9 @@ At the end of the Sub, the data of these global variables will be erased.
 
 ## Installation
  - Download [Mtx_add-in.xlam](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/Mtx_add-in.xlam).
- - Optionaly recommended to place the add-in in the C:\..\..\AppData\Roaming\Microsoft\AddIns\ folder.
- - Open an Empty book in Excel then go to File -> Options -> Add-in -> Go -> Browse and select downloaded [Mtx_add-in.xlam](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/Mtx_add-in.xlam), check the box next to the selected add-on and click OK. Enable macros if required.
+ - Optionaly recommended to place the add-in in the `C:\..\..\AppData\Roaming\Microsoft\AddIns\` folder.
+ - Open an Empty book in Excel then go to `File->Options->Add-in->Go->Browse` and select downloaded [Mtx_add-in.xlam](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/Mtx_add-in.xlam), check the box next to the selected add-in then click OK. Enable macros if required.
  - write `=generate_matrix(3;3)` in amy cell to make sure the Add-in is working.
+
+## Usage
+
