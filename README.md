@@ -1,5 +1,5 @@
 # Excel-UDF-limitation-evasion
-An add-in for MS Excel that allows you to insert tables (matrices) onto a sheet through user-defined functions.
+An add-in for MS Excel that allows you to insert tables (Variant matrices) onto a sheet through user-defined functions.
 Specifically, it provides a Sub that places a two-dimensional array on the sheet. All you have to do is call this Sub with the appropriate parameters.
 ## Demonstration 
 ![demonstration](https://github.com/1azar/Excel-UDF-limitation-evasion/blob/main/media_for_demo/demo4.gif)
